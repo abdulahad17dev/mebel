@@ -1,0 +1,590 @@
+/* Boshi home */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background: #e4e4e4;
+}
+.navbar {
+    position: relative;
+    width: 100%;
+    height: 5.4vh;
+    background: rgb(41, 41, 41);
+}
+.content {
+    display: flex;
+    color: white;
+    list-style: none;
+    justify-content: end;
+    font-family: unset;
+    height: 5.3vh;
+}
+.content > a {
+    margin: 16px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.content > i {
+    margin: 16px 30px;
+    cursor: pointer;
+    color: #ffffff;
+}
+.nav-mebel {
+    margin-right: auto;
+    margin-top: 9px;
+}
+.mebel-uz {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 20px;
+    padding: 3%;
+}
+li:hover {
+    color: #d0d0d0;
+    border-bottom: 1.3px solid;
+}
+.hero {
+    background-image: url(header1.png);
+    background-size: cover;
+    background-position: center;
+    min-height: calc(100vh - 48px);
+}
+.banner {
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.mebell > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: fantasy;
+    font-size: 80px;
+    letter-spacing: 3px;
+}
+.p {
+    margin-left: 10%;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.overlay {
+    min-height:calc(100vh - 48px);
+    background-color: rgba(0, 0, 0, 0.3); 
+    margin-top: calc(-100vh - -48px);
+}
+.p > .bottom {
+    margin-bottom: 10px;
+}
+/* Tugashi home */
+
+/* Boshi xizmatlar  */
+.h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 50px;
+    padding: 5% 0;
+    color: rgb(70, 70, 70);
+}
+.rasimlar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.rasim1 {
+    width: 90%;
+    height: auto;
+    margin: 10px 20px;
+}
+.rasim2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 450px;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2); 
+}
+.rasim2  img {
+    width: 100%;
+    height: 350px;
+    padding: 20px 20px;
+}
+.rasim2 > p {
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.videos {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 800px;
+    width: 1400px;
+    margin-left: 250px;
+    margin-top: 50px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+}
+.video {
+    width: 100%;
+    height: 350px;
+    padding: 20px 20px;
+}
+/* Tugashi xizmatlar  */
+
+/* Pictures boshi */
+.mebel > h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+    font-weight: 900;
+    font-size: 50px;
+    color: rgb(70, 70, 70);
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.imjs {
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 10px 30px 10px 60px;
+    transition: all .4s ease-in-out;
+    padding: 40px 0;
+    cursor: pointer;
+}
+.imj {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 250px;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2); 
+}
+.imj  img {
+    width: 100%;
+    height: 250px !important;
+    padding: 8px 8px;
+}
+.imjs:hover {
+    transform: scale(1.1);
+}
+.title > p {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 900;
+    font-family: monospace;
+}
+.imj img:active {
+    width: 100%;
+    height: 100%;
+}
+/* Pictures tugashi */
+
+/* Videos boshi */
+.didd h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+    font-weight: 900;
+    font-size: 50px;
+    color: rgb(70, 70, 70);
+}
+.videos1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 1000px;
+    width: auto;
+    margin-top: 50px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+}
+.video3 {
+    margin: 70px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 20px 10px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+/* Videos tugashi */
+
+/* About boshi */
+.dii h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+    font-weight: 900;
+    font-size: 50px;
+    color: rgb(70, 70, 70);
+}
+.about-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about > h1 {
+    margin-top: -245px;
+    margin-left: 164px;
+    font-size: 45px;
+    color: rgba(255, 238, 160, 0.767);
+    filter: drop-shadow(0 0 5px rgba(252, 255, 66, 0.911));
+}
+.about >img {
+    margin: 30px;
+    width: 600px;
+    height: 600px;
+    border: 5px solid rgb(95, 95, 95);
+    border-radius: 20px;
+}
+.pi {
+    letter-spacing: 3px;
+}
+.about p {
+    font-family: sans-serif;
+    color: rgb(56, 56, 56);
+    font-size: 40px;
+}
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item {
+    margin-top: 79px;
+    width: auto;
+    height: 100px;
+    background-color: black;
+}
+.icon {
+    margin-top: 61px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.icon > i {
+    border-radius: 50%;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.icon i:nth-child(1):hover {
+    color: rgb(107, 0, 150);
+}
+.icon i:nth-child(2):hover {
+    color: rgb(3, 91, 190);
+}
+.icon i:nth-child(3):hover {
+    color: rgb(39, 138, 252);
+}
+.icon i:nth-child(4):hover {
+    color: rgb(39, 138, 252);
+}
+.icon i:nth-child(5):hover {
+    color: red;
+}
+.icon i:nth-child(6):hover {
+    color: rgb(72, 255, 0);
+}
+.icon i:nth-child(7):hover {
+    color: blue;
+}
+.tel {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 250px;
+    margin-left: 750px;
+    animation: smooth 1s infinite alternate linear;
+}
+.contact_us {
+    position: fixed;
+    top: 87%;
+    right: 2%;
+}
+@keyframes smooth {
+    50% {
+    filter: drop-shadow(0 0 30px rgb(94, 255, 0));
+    }
+}
+.content > i {
+    display: none;
+}
+.strel {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.strelka {
+    position: fixed;
+    top: 93%;
+}
+.content > i {
+    display: none;
+}
+/* About tugashi */
+@media (max-width: 900px) {
+    .content > i {
+        display: block;
+    }
+    .content > a {
+        display: none;
+    }
+}
+@media (max-width: 1200px) {
+    .p {
+        font-size: 16px;
+    }
+    .mebell > a {
+        font-size: 64px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #about {
+        display: block;
+    }
+    .rasimlar {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .h1 {
+        font-size: 45px;
+    }.mebel > h1 {
+        font-size: 45px;
+    }
+    .didd h1 {
+        font-size: 45px;
+    }
+    .dii h1 {
+        font-size: 45px;
+    }
+    .tel {
+        width: 64px;
+        height: 64px;
+        margin-bottom: 200px;
+    }
+    .about >img {
+        width: 500px;
+        height: 500px;
+    }
+    .about > h1 {
+        margin-top: -208px;
+        margin-left: 137px;
+        font-size: 38px;
+    }
+    .about p {
+        font-size: 35px;
+    }
+    .contact_us {
+        top: 90%;
+    }
+}
+@media (max-width: 1122px) {
+    .about p {
+        font-size: 30px;
+    }
+}
+@media (max-width: 1080px) {
+    .about p {
+        font-size: 25px;
+    }
+}
+@media (max-width: 992px) {
+    .p {
+        font-size: 16px;
+    }
+    .mebell > a {
+        font-size: 59px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .rasimlar {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .h1 {
+        font-size: 40px;
+    }.mebel > h1 {
+        font-size: 40px;
+    }
+    .didd h1 {
+        font-size: 40px;
+    }
+    .dii h1 {
+        font-size: 40px;
+    }
+    .about >img {
+        width: 400px;
+        height: 400px;
+    }
+    .about > h1 {
+        margin-top: -173px;
+        margin-left: 120px;
+        font-size: 30px;
+    }
+    .about p {
+        font-size: 20px;
+    }
+    .contact_us {
+        top: 93%;
+    }
+    .tel {
+        width: 46px;
+        height: 46px;
+        margin-bottom: 150px;
+    }
+}
+@media (max-width: 890px) {
+    .icon {
+        margin-top: 61px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 768px) {
+    .p {
+        font-size: 16px;
+    }
+    .mebell > a {
+        font-size: 50px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .video3 {
+        margin: 30px;
+    }
+    .rasimlar {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .h1 {
+        font-size: 25px;
+    }
+    .mebel > h1 {
+        font-size: 25px;
+    }
+    .didd h1 {
+        font-size: 25px;
+    }
+    .dii h1 {
+        font-size: 25px;
+    }
+    .about >img {
+        width: 300px;
+        height: 300px;
+    }
+    .about > h1 {
+        margin-top: -140px;
+        margin-left: 98px;
+        font-size: 23px;
+    }
+    .contact_us {
+        top: 94%;
+    }
+    .strel {
+        width: 50px;
+        height: 50px;
+    }
+    .strelka {
+        top: 94%;
+        
+    }
+}
+@media (max-width: 576px) {
+    .p {
+        font-size: 16px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .h1 {
+        font-size: 20px;
+    }.mebel > h1 {
+        font-size: 20px;
+    }.didd h1 {
+        font-size: 20px;
+    }
+    .dii h1 {
+        font-size: 20px;
+    }
+    .about >img {
+        width: 200px;
+        height: 200px;
+    }
+    .about > h1 {
+        margin-top: -171px;
+        margin-left: 130px;
+        font-size: 28px;
+    }
+    .about > h1 {
+        margin-top: -104px;
+        margin-left: 73px;
+        font-size: 15px;
+    }
+    .strel {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+    }
+    .strel {
+        width: 45px;
+        height: 45px;
+    }
+    .strelka {
+        top: 95%;
+        
+    }
+}
+@media (max-width: 540px) {
+    .nav-mebel {
+        margin-right: auto;
+        margin-top: 3px;
+    }
+}
+@media (max-width: 1024px) {
+    .nav-mebel {
+        margin-right: auto;
+        margin-top: .1px;
+    }
+    .content > a {
+        margin: 5px 20px;
+        text-decoration: none;
+        color: #fff;
+    }
+}
